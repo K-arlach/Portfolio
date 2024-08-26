@@ -1,6 +1,7 @@
 import CodeOfAPIProjectImage from "./assets/images/kasa.png";
 import CodeOfAPIProjectImage2 from "./assets/images/argentbank.png";
-import CodeOfAPIProjectImage3 from "./assets/images/kasa.png";
+import CodeOfAPIProjectImage3 from "./assets/images/Portfolioninacarducci.png";
+import CodeOfAPIProjectImage4 from "./assets/images/Ohmyfood.png";
 
 
 const logotext = "幸 運 を";
@@ -80,8 +81,13 @@ const dataportfolio = [{
     },
     {
         img: CodeOfAPIProjectImage3 ,
-        description: "House renting website using React and Scss",
-        link: "https://github.com/kyllianschneider/Kasa-8",
+        description: "Optimized SEO website for a client",
+        link: "https://github.com/K-arlach/Portfolio-Nina-Carducci",
+    },
+    {
+        img: CodeOfAPIProjectImage4 ,
+        description: "Restaurant ordering website with native CSS animations",
+        link: "https://github.com/K-arlach/OhMyFood",
     },
    
 ];
