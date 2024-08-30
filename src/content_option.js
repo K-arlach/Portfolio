@@ -3,7 +3,6 @@ import CodeOfAPIProjectImage2 from "./assets/images/argentbank.png";
 import CodeOfAPIProjectImage3 from "./assets/images/Portfolioninacarducci.png";
 import CodeOfAPIProjectImage4 from "./assets/images/Ohmyfood.png";
 
-
 const logotext = "幸 運 を";
 const meta = {
     title: "Kidly",
@@ -23,17 +22,19 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "I'm a tech lover and i like to play video games and toy with computer parts trying to understand how everything works since im a child so naturally i started web developpement studies to see where that would lead me !",
+    aboutme:
+        "I'm a tech lover and i like to play video games and toy with computer parts trying to understand how everything works since im a child so naturally i started web developpement studies to see where that would lead me !",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
         jobtitle: "Web integrator (studies)",
         where: "Openclassroom",
         date: "2022-2024",
     },
-   
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "HTML",
         value: 90,
     },
@@ -55,7 +56,8 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "UI & UX Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
@@ -69,34 +71,34 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: CodeOfAPIProjectImage ,
+const dataportfolio = [
+    {
+        img: CodeOfAPIProjectImage,
         description: "House renting website using React and Scss",
         link: "https://github.com/kyllianschneider/Kasa-8",
     },
     {
         img: CodeOfAPIProjectImage2,
-        description: "Bank app using react working with API for user authentification",
+        description: "Bank app using React and Redux working with API for user authentification",
         link: "https://github.com/K-arlach/ArgentBank-11",
     },
     {
-        img: CodeOfAPIProjectImage3 ,
+        img: CodeOfAPIProjectImage3,
         description: "Optimized SEO website for a client",
         link: "https://github.com/K-arlach/Portfolio-Nina-Carducci",
     },
     {
-        img: CodeOfAPIProjectImage4 ,
+        img: CodeOfAPIProjectImage4,
         description: "Restaurant ordering website with native CSS animations",
         link: "https://github.com/K-arlach/OhMyFood",
     },
-   
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "randomemail@gmail.com",
     YOUR_FONE: "555(123-456)",
     description: "Do not hesitate to contact me for any questions about my work  ",
-    // creat an emailjs.com account 
+    // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
@@ -109,15 +111,4 @@ const socialprofils = {
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
-export {
-    meta,
-    dataabout,
-    dataportfolio,
-    worktimeline,
-    skills,
-    services,
-    introdata,
-    contactConfig,
-    socialprofils,
-    logotext,
-};
+export { meta, dataabout, dataportfolio, worktimeline, skills, services, introdata, contactConfig, socialprofils, logotext };
